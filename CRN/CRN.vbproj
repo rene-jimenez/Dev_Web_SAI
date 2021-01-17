@@ -85,7 +85,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="area\Proceso_ActualizarArea.vb" />
+    <Compile Include="area\Proceso_AgregarArea.vb" />
+    <Compile Include="area\Proceso_DesactivarArea.vb" />
+    <Compile Include="area\Proceso_EliminarArea.vb" />
+    <Compile Include="area\Proceso_ObtenerArea.vb" />
+    <Compile Include="area\Proceso_ObtenerAreas.vb" />
+    <Compile Include="articulo\Proceso_ActualizarArticulo.vb" />
+    <Compile Include="articulo\Proceso_AgregarArticulo.vb" />
+    <Compile Include="articulo\Proceso_DesactivarArticulo.vb" />
+    <Compile Include="articulo\Proceso_EliminarArticulo.vb" />
+    <Compile Include="articulo\Proceso_ObtenerArticulo.vb" />
+    <Compile Include="articulo\Proceso_ObtenerArticulos.vb" />
     <Compile Include="Class1.vb" />
+    <Compile Include="detalleEntrada\Proceso_ActualizarDetalleEntrada.vb" />
+    <Compile Include="detalleEntrada\Proceso_AgregarDetalleEntrada.vb" />
+    <Compile Include="detalleEntrada\Proceso_EliminarDetalleEntrada.vb" />
+    <Compile Include="detalleEntrada\Proceso_ObtenerDetalleEntrada.vb" />
+    <Compile Include="detalleEntrada\Proceso_ObtenerDetallesEntrada.vb" />
+    <Compile Include="detallePedido\Proceso_ActualizarDetallePedido.vb" />
+    <Compile Include="detallePedido\Proceso_AgregarDetallePedido.vb" />
+    <Compile Include="detallePedido\Proceso_EliminarDetallePedido.vb" />
+    <Compile Include="detallePedido\Proceso_ObtenerDetallePedido.vb" />
+    <Compile Include="detallePedido\Proceso_ObtenerDetallePedidos.vb" />
+    <Compile Include="detallePedido\Proceso_ObtenerDetallesPedidoParaEntrada.vb" />
+    <Compile Include="detalleSalidaAlmacen\Proceso_ActualizarDetalleSalidaAlmacen.vb" />
+    <Compile Include="detalleSalidaAlmacen\Proceso_AgregarDetalleSalidaAlmacen.vb" />
+    <Compile Include="detalleSalidaAlmacen\Proceso_EliminarDetalleSalidaAlmacen.vb" />
+    <Compile Include="detalleSalidaAlmacen\Proceso_ObtenerDetalleSalidaAlmacen.vb" />
+    <Compile Include="detalleSalidaAlmacen\Proceso_ObtenerDetallesSalidaAlmacen.vb" />
+    <Compile Include="entrada\Proceso_ActualizarEntrada.vb" />
+    <Compile Include="entrada\Proceso_AgregarEntrada.vb" />
+    <Compile Include="entrada\Proceso_EliminarEntrada.vb" />
+    <Compile Include="entrada\Proceso_ObtenerEntrada.vb" />
+    <Compile Include="entrada\Proceso_ObtenerEntradas.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -101,12 +134,55 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="oficio\Proceso_AgregarOficio.vb" />
+    <Compile Include="oficio\Proceso_AgregarOficioEspecial.vb" />
+    <Compile Include="oficio\Proceso_ComplementarOficio.vb" />
+    <Compile Include="oficio\Proceso_ConsultarOficio.vb" />
+    <Compile Include="oficio\Proceso_ConsultarOficios.vb" />
+    <Compile Include="oficio\Proceso_EditarOficio.vb" />
+    <Compile Include="oficio\Proceso_EditarOficio_EspecialPedidoSolicitud.vb" />
+    <Compile Include="pagina\Proceso_ActualizarPagina.vb" />
+    <Compile Include="pagina\Proceso_AgregarPagina.vb" />
+    <Compile Include="pagina\Proceso_ObtenerPagina.vb" />
+    <Compile Include="pagina\Proceso_ObtenerPaginas.vb" />
+    <Compile Include="pedido\Proceso_ActualizarPedido.vb" />
+    <Compile Include="pedido\Proceso_AgregarPedido.vb" />
+    <Compile Include="pedido\Proceso_AgregarPedidoSinDRM.vb" />
+    <Compile Include="pedido\Proceso_ObtenerPedido.vb" />
+    <Compile Include="pedido\Proceso_ObtenerPedidos.vb" />
+    <Compile Include="pedido\Proceso_ObtenerPedidos_Con_Entradas.vb" />
     <Compile Include="permiso\Proceso_ActualizarPermiso.vb" />
     <Compile Include="permiso\Proceso_AgregarPermiso.vb" />
     <Compile Include="permiso\Proceso_EliminarPermiso.vb" />
     <Compile Include="permiso\Proceso_ObtenerPermiso.vb" />
     <Compile Include="permiso\Proceso_ObtenerPermisos.vb" />
+    <Compile Include="Proveedor\Proceso_ActualizarProveedor.vb" />
+    <Compile Include="Proveedor\Proceso_AgregarProveedor.vb" />
+    <Compile Include="Proveedor\Proceso_DesactivarProveedor.vb" />
+    <Compile Include="Proveedor\Proceso_EliminarProveedor.vb" />
+    <Compile Include="Proveedor\Proceso_ObtenerProveedor.vb" />
+    <Compile Include="Proveedor\Proceso_ObtenerProveedores.vb" />
     <Compile Include="rol\Proceso_ActualizarRol.vb" />
+    <Compile Include="rol\Proceso_AgregarRol.vb" />
+    <Compile Include="rol\Proceso_EliminarRol.vb" />
+    <Compile Include="rol\Proceso_ObtenerListaRol.vb" />
+    <Compile Include="rol\Proceso_ObtenerRol.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_ActualizarRubroRequerimiento.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_AgregarRubroRequerimiento.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_DesactivarRubroRequerimiento.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_EliminarRubroRequerimiento.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_ObtenerRubroRequerimiento.vb" />
+    <Compile Include="rubroRequerimiento\Proceso_ObtenerRubroRequerimientos.vb" />
+    <Compile Include="salidaAlmacen\Proceso_ActualizarSalidaAlmacen.vb" />
+    <Compile Include="salidaAlmacen\Proceso_AgregarSalidaAlmacen.vb" />
+    <Compile Include="salidaAlmacen\Proceso_EliminarSalidaAlmacen.vb" />
+    <Compile Include="salidaAlmacen\Proceso_ObtenerSalidaAlmacen.vb" />
+    <Compile Include="salidaAlmacen\Proceso_ObtenerSalidasAlmacen.vb" />
+    <Compile Include="telefonoProveedor\Proceso_ActualizarTelefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\Proceso_AgregarTelefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\Proceso_EliminarTelefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\Proceso_ObtenerTelefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\Proceso_ObtenerTelefonosProveedor.vb" />
     <Compile Include="usuarios\Proceso_ObtenerUsuarios.vb" />
   </ItemGroup>
   <ItemGroup>

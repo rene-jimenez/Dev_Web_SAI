@@ -86,6 +86,10 @@
     <Compile Include="articulo\daoArticulo.vb" />
     <Compile Include="Class1.vb" />
     <Compile Include="ControladorDaos\ControladorDaosBase.vb" />
+    <Compile Include="detalleEntrada\daoDetalleEntrada.vb" />
+    <Compile Include="detallePedido\daoDetallePedido.vb" />
+    <Compile Include="detallePedido\DaoDetallePedidoParaEntrada.vb" />
+    <Compile Include="detalleSalidaAlmacen\daoDetalleSalidaAlmacen.vb" />
     <Compile Include="entrada\daoEntrada.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -110,6 +114,7 @@
     <Compile Include="rol\daoRol.vb" />
     <Compile Include="rubroRequerimiento\daoRubroRequerimiento.vb" />
     <Compile Include="salidaAlmacen\daoSalidaAlmacen.vb" />
+    <Compile Include="telefonoProveedor\daoTelefonoProveedor.vb" />
     <Compile Include="usuarios\daoUsuarios.vb" />
   </ItemGroup>
   <ItemGroup>

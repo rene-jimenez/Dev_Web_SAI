@@ -74,6 +74,14 @@
     <Compile Include="articulo\tipoConsultaArticulo.vb" />
     <Compile Include="articulo\tipoEdicionArticulo.vb" />
     <Compile Include="Class1.vb" />
+    <Compile Include="detalleEntrada\detalleEntrada.vb" />
+    <Compile Include="detalleEntrada\tipoConsultaDetalleEntrada.vb" />
+    <Compile Include="detallePedido\detallePedido.vb" />
+    <Compile Include="detallePedido\detallePedidoParaEntrada.vb" />
+    <Compile Include="detallePedido\tipoConsultaDetallePedido.vb" />
+    <Compile Include="detallePedido\tipoConsultaDetallePedidoParaEntrada.vb" />
+    <Compile Include="detalleSalidaAlmacen\detalleSalidaAlmacen.vb" />
+    <Compile Include="detalleSalidaAlmacen\tipoConsultaDetalleSalidaAlmacen.vb" />
     <Compile Include="entrada\entrada.vb" />
     <Compile Include="entrada\tipoConsultaEntrada.vb" />
     <Compile Include="entrada\tipoEdicionEntrada.vb" />
@@ -113,6 +121,9 @@
     <Compile Include="rubroRequerimiento\tipoEdicionRubroRequerimiento.vb" />
     <Compile Include="salidaAlmacen\salidaAlmacen.vb" />
     <Compile Include="salidaAlmacen\tipoConsultaSalidaAlmacen.vb" />
+    <Compile Include="telefonoProveedor\telefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\tipoConsultaTelefonoProveedor.vb" />
+    <Compile Include="telefonoProveedor\tipoEdicionTelefonoProveedor.vb" />
     <Compile Include="usuarios\usuarios.vb" />
   </ItemGroup>
   <ItemGroup>
